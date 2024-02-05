@@ -15,7 +15,7 @@ const getUsers = async () => {
         displayUsers();
     }
     catch (error) {
-        console.log("ATTENTION ATTENTION !");
+        console.log("ATTENTION ATTENTION");
     };
 }
 
