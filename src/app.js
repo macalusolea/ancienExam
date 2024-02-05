@@ -1,7 +1,6 @@
 import User from "./User.js";
 
 const url = "https://randomuser.me/api/?results=7";
-
 const users = [];
 
 const getUsers = async () => {
@@ -16,7 +15,7 @@ const getUsers = async () => {
         displayUsers();
     }
     catch (error) {
-        console.log("ATTENTION ATTENTION");
+        console.log("ATTENTION ATTENTION !");
     };
 }
 
